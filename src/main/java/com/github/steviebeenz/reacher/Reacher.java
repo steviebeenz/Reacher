@@ -14,6 +14,7 @@ import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Entity;
 import org.bukkit.event.player.PlayerMoveEvent;
+import com.github.steviebeenz.importablegba.ImportableGBA;
 import org.bukkit.*;
 import org.bukkit.Location;
 import net.md_5.bungee.api.chat.ClickEvent;
@@ -32,7 +33,7 @@ public class Reacher {
         int distance = 0;
         for (double i = y; i >= 0; i--){
             loc.setY(i);
-            if(loc.getBlock().getType().isSolid())break;
+            if(ImportableGBA.getBlockAsync(loc.clone()).getType().isSolid())break;
             distance++;
         }
         return distance;

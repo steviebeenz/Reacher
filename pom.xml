@@ -138,10 +138,10 @@
             <version>1.8.8-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
       </dependency>
-    <dependency>
+    	<dependency>
 	    <groupId>com.github.steviebeenz</groupId>
 	    <artifactId>importablegba</artifactId>
-	    <version>main-32cb02d7af-1</version>
+	    <version>0.0.1</version>
 	</dependency>
   </dependencies>
 </project>
