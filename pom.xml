@@ -3,9 +3,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.steviebeenz</groupId>
   <artifactId>reacher</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <build>
-    <finalName>reacher-0.0.1</finalName>
+    <finalName>reacher-0.0.2</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-clean-plugin</artifactId>
@@ -138,10 +138,5 @@
             <version>1.8.8-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
       </dependency>
-    	<dependency>
-	    <groupId>com.github.steviebeenz</groupId>
-	    <artifactId>importablegba</artifactId>
-	    <version>0.0.1</version>
-	</dependency>
   </dependencies>
 </project>
