@@ -3,9 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.steviebeenz</groupId>
   <artifactId>reacher</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.5</version>
+  <packaging>jar</packaging>
   <build>
-    <finalName>reacher-0.0.2</finalName>
+    <defaultGoal>clean package</defaultGoal>
+    <finalName>reacher-0.0.5</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-clean-plugin</artifactId>
